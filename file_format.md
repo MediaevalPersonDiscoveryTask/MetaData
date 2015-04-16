@@ -1,10 +1,12 @@
 file format
 ==============
 
-## uri list (uri_lst/uri.set.lst)
+## data path (dataPath.lst)
+
+Path to the different ressources for an videoID (in the folder `REPERE/DATA/SOURCE DATA/` for the REPERE corpus)
 
 ```
-videoID\twaveFile\tvideoAVIFile\tvideoMPEGFile\ttrsFile\txgtfFile\tidxFile
+videoID waveFile videoAVIFile videoMPEGFile trsFile xgtfFile idxFile
 ```
 
 - `videoID`: unique video identifier
@@ -14,6 +16,15 @@ videoID\twaveFile\tvideoAVIFile\tvideoMPEGFile\ttrsFile\txgtfFile\tidxFile
 - `trsFile`: path to the videoID.trs file
 - `xgtfFile`: path to the videoID.xgtf file
 - `idxFile`: path to the videoID.MPEG.idx
+
+
+## uri list (uri_lst/uri.set.lst)
+
+```
+videoID
+```
+
+- `videoID`: unique video identifier
 
 
 ## trs (video.trs)
