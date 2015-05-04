@@ -18,11 +18,11 @@ videoID startTime endTime startFrame endFrame trackID personName confidence
 
 ### face temporal segmentation (faceSegmentation/videoID.MESeg)
 
-Temporal semgentation of the faces appearing in the annotated frames
+Temporal segmentation of the faces appearing in the annotated frames
 
 ### overlaid names temporal segmentation (OCRSegmentation/videoID.MESeg)
 
-Temporal semgentation of the overlaid names appearing in the annotated frames
+Temporal segmentation of the overlaid names appearing in the annotated frames
 
 ### SpeakerSegmentation (SpeakerSegmentation/videoID.MESeg)
 
