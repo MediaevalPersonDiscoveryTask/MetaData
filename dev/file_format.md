@@ -64,3 +64,25 @@ videoID shotNumber startTime endTime startFrame endFrame
 - `startFrame`: start frame index
 - `endFrame`: end frame index
 
+## Reference (.ref)
+
+```
+videoID shotNumber personName
+```
+
+- `videoID`: unique video identifier
+- `shotNumber`: shot number
+- `personName`: person name (according to convention)
+
+## Evidence reference (.eviref)
+
+```
+videoID shotNumber personName evidenceSource
+```
+
+- `videoID`: unique video identifier
+- `shotNumber`: shot number
+- `personName`: person name (according to convention)
+- `evidenceSource`: `audio` or `image` or `both` 
+
+
