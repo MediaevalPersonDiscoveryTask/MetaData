@@ -38,4 +38,4 @@ WORK IN PROGRESS - WORK IN PROGRESS - WORK IN PROGRESS - WORK IN PROGRESS
 
 * `dev/baseline`
 
-
+  This directory provides the submission files of the baseline system whose source code is available [here](https://github.com/MediaevalPersonDiscoveryTask/baseline).
