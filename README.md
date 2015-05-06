@@ -15,7 +15,7 @@ WORK IN PROGRESS - WORK IN PROGRESS - WORK IN PROGRESS - WORK IN PROGRESS
 
 * `dev/groundtruth`
 
- This directory provides label and evidence groundtruth in `SUBSET.ref` and `SUBSET.eviref` respecively. 
+ This directory provides label and evidence groundtruth in `SUBSET.ref` and `SUBSET.eviref` respectively. 
 
 * `dev/submission_shot`
 
@@ -24,6 +24,10 @@ WORK IN PROGRESS - WORK IN PROGRESS - WORK IN PROGRESS - WORK IN PROGRESS
  See `dev/automatic` for the complete list of shots, if you feel like it might be useful.
 
 * `dev/manual`
+
+ This directory provides additional manual annotations, extracted from the REPERE package.  
+ We provide these files to avoid a potentially painful step of parsing `.trs` and `.xgtf` files.  
+ Because they are under ELRA's usage agreement, these files must be downloaded separately from the task [PBWorks wiki](http://mediaeval15.pbworks.com/w/page/95456627/PersonDiscovery).
 
 * `dev/automatic`
 
