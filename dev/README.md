@@ -5,6 +5,29 @@
 
  The development set was used during REPERE evaluation campaigns in 2012 (evaluation `0`), 2013 (evaluation `1`) and 2014 (evaluation `2`), and is therefore divided into several subsets (`dev0`/`test0`, `dev1`/`test1` and `dev2`/`test2`) described in `SUBSET.lst` files providing the corresponding list of `videoID`.
 
+* `dataPath.lst`
+
+ This file has one line per video in the REPERE corpus.
+ It provides path to several resources, relative to directory `REPERE/DATA/SOURCE DATA/` on development set hard drive.
+
+```
+videoID wav avi mpg trs xgtf idx
+```
+
+- `videoID`: video identifier
+- `wav`: path to `.wav` file
+- `avi`: path to `.avi` file
+- `mpg`: path to `.mpg` file
+- `trs`: path to [`.trs` file](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#transcriber-trs)
+- `xgtf`: path to [`.xgtf` file](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#viper-xgtf)
+- `idx`: path to [`.idx` file](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#video-index-idx)
+
+
+* `dev.uem`
+ 
+ Only parts of the REPERE corpus were manually annotated. 
+ This file provides the list of those parts using [`.uem` file format](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#unpartitioned-evaluation-map-uem).
+
 * `groundtruth`
 
  This directory provides label and evidence groundtruth in `SUBSET.ref` and `SUBSET.eviref` respectively. 
