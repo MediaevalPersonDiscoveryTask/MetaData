@@ -32,6 +32,10 @@ WORK IN PROGRESS - WORK IN PROGRESS - WORK IN PROGRESS - WORK IN PROGRESS
 
 * `dev/automatic`
 
+  This directory provides the output of several automatic processing modules (optical character recognition, speaker diarization, face tracking, talking-face detection, etc.).
+  You can expect these files to also be available for the test set in June.
+  This means that you can rely on these files for developping your algorithms in case you do not have expertise in all involved research fields. 
+
 * `dev/baseline`
 
 
