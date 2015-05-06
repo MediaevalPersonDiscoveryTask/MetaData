@@ -10,17 +10,17 @@
  This file has one line per video in the REPERE corpus.
  It provides path to several resources, relative to directory `REPERE/DATA/SOURCE DATA/` on development set hard drive.
 
-```
-videoID wav avi mpg trs xgtf idx
-```
+ ```
+ videoID wav avi mpg trs xgtf idx
+ ```
 
-- `videoID`: video identifier
-- `wav`: path to `.wav` file
-- `avi`: path to `.avi` file
-- `mpg`: path to `.mpg` file
-- `trs`: path to [`.trs` file](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#transcriber-trs)
-- `xgtf`: path to [`.xgtf` file](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#viper-xgtf)
-- `idx`: path to [`.idx` file](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#video-index-idx)
+ - `videoID`: video identifier
+ - `wav`: path to `.wav` file
+ - `avi`: path to `.avi` file
+ - `mpg`: path to `.mpg` file
+ - `trs`: path to [`.trs` file](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#transcriber-trs)
+ - `xgtf`: path to [`.xgtf` file](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#viper-xgtf)
+ - `idx`: path to [`.idx` file](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#video-index-idx)
 
 
 * `dev.uem`
