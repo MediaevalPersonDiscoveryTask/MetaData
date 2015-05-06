@@ -30,11 +30,11 @@
 
 * `groundtruth`
 
- This directory provides label and evidence groundtruth in `SUBSET.ref` and `SUBSET.eviref` respectively. 
+ This directory provides label and evidence groundtruth in [`SUBSET.ref`](https://github.com/MediaevalPersonDiscoveryTask/evaluation/wiki/File-format#reference-ref) and [`SUBSET.eviref`](https://github.com/MediaevalPersonDiscoveryTask/evaluation/wiki/File-format#evidence-reference-eviref) respectively. 
 
 * `submission_shot`
 
- This directory provides the filtered output of automatic segmentation into shots in `SUBSET.shot` files.
+ This directory provides the filtered output of automatic segmentation into shots in [`SUBSET.shot` files](https://github.com/MediaevalPersonDiscoveryTask/evaluation/wiki/File-format#shots-shot).
  Submission files on a given `SUBSET` must report results for these shots only.
  It means that evidences must also be searched among these shots, and only among these shots.
  See `automatic` for the complete list of shots, if you feel like it might be useful.
