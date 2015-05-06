@@ -19,7 +19,7 @@ WORK IN PROGRESS - WORK IN PROGRESS - WORK IN PROGRESS - WORK IN PROGRESS
 
 * `dev/submission_shot`
 
- This directory provides the filtered output of automatic segmentation into shots in `SUBSET.shot` files.  
+ This directory provides the filtered output of automatic segmentation into shots in `SUBSET.shot` files.
  Submission files on a given `SUBSET` must report results for these shots only.  It means that evidences must also be searched among these shots, and only among these shots.  
  See `dev/automatic` for the complete list of shots, if you feel like it might be useful.
 
