@@ -1,6 +1,6 @@
 This directory provides additional manual annotations, extracted from the REPERE package.
 We provide these files to avoid a potentially painful step of parsing `.trs` and `.xgtf` files.
-Because they are under ELRA's usage agreement, these files must be downloaded separately from the task [PBWorks wiki](http://mediaeval15.pbworks.com/w/page/95456627/PersonDiscovery).
+Because they are under ELRA's usage agreement, these files must be downloaded separately from the password-protected PBWorks wiki: http://mediaeval15.pbworks.com/w/file/96099734/dev.manual.20150508.tgz
 
 * `speaker`
 
