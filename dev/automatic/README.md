@@ -12,9 +12,25 @@
  This directory provides automatic speaker diarization (who speaks when). 
  Each file contains one line per speech turn, using [`.MESeg` file format](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#temporal-segmentation-meseg). 
 
+* `st_mat`
+
+ This directory provides probabilities that each speech turn correspond to an other speech turn.
+
+ ```
+speechTurnID speechTurnID probability
+ ```
+
 * `facetrack`
 
  This directory provides automatic face detection and tracking. Each file contains one line per face track, using [`.MESeg` file format](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#temporal-segmentation-meseg).
+
+* `facetrack_mat`
+
+ This directory provides probabilities that each facetrack correspond to an other facetrack.
+
+ ```
+facetrackID facetrackID probability
+ ```
 
 * `speakingface`
 
