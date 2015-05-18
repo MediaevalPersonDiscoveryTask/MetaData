@@ -44,3 +44,15 @@ speechTurnID faceTrackID probability
 
  This directory provides automatic detection of overlaid person names. Each file contains one line per person name occurrence (with start and end times), using [`.MESeg` file format](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#temporal-segmentation-meseg).
 
+* `ASR`
+
+ This directory provides the raw output of an automatic speech recogntion system
+
+ ```
+videoID 1 startTime endTime word confidence
+ ```
+
+* `spoken`
+
+ This directory provides the raw output of an automatic named entites detection in ASR, using [`.MESeg` file format](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#temporal-segmentation-meseg).
+
