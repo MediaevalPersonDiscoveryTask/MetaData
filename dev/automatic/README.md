@@ -29,7 +29,7 @@ speechTurnID speechTurnID probability
  This directory provides probabilities that each face track correspond to the current speaker. Each file contains one line per overlapping (face track / speech turns).
 
  ```
-speechTurnID faceTrackID probability
+TrackIDspeechTurn TrackIDfaceTrack probability
  ```
 
 * `written`
