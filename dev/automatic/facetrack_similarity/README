@@ -10,21 +10,19 @@ import numpy as np
 import pickle
 from scipy import spatial, cluster
 
-if __name__ == '__main__':
+# read face segmentation
+TrackFaceIDs = []
+face_seg, confs, timeToFrameID = MESegParser(args['<faceTrackSegmentation>'], args['<videoID>'])
+for s, t, l in face_seg.itertracks(label=True):
+    TrackFaceIDs.append([t, l])
+TrackFaceIDs.sort()
 
-    # read face segmentation
-    TrackFaceIDs = []
-    face_seg, confs, timeToFrameID = MESegParser(args['<faceTrackSegmentation>'], args['<videoID>'])
-    for s, t, l in face_seg.itertracks(label=True):
-        TrackFaceIDs.append([t, l])
-    TrackFaceIDs.sort()
+# read matrix
+mat = pickle.load(matrix_file, "rb" ))
+mat = spatial.distance.squareform(mat, checks=False)
 
-    # read matrix
-    mat = pickle.load(matrix_file, "rb" ))
-    mat = spatial.distance.squareform(mat, checks=False)
-
-    # print the similarity of two facetracks
-    for i in range(len(TrackFaceIDs)):
-        for j in range(len(TrackFaceIDs)):
-            print TrackFaceIDs[i], TrackFaceIDs[j], mat[i][j]
+# print the similarity of two facetracks
+for i in range(len(TrackFaceIDs)):
+    for j in range(len(TrackFaceIDs)):
+        print TrackFaceIDs[i], TrackFaceIDs[j], mat[i][j]
 ```
