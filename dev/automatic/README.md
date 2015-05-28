@@ -24,6 +24,14 @@ trackIDspeechTurn trackIDspeechTurn probability
 
  This directory provides automatic face detection and tracking. Each file contains one line per face track, using [`.MESeg` file format](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#temporal-segmentation-meseg).
 
+* `face`
+
+ This directory provides automatic facetrack **clustering**. Each file contains one line per face track, using [`.MESeg` file format](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#temporal-segmentation-meseg).
+
+* `facetrack_similarity`
+
+This directory provides matrix probability that two faces correspond to the same person. Due to the size of the files, they must be download separately from the PBWorks wiki: http://mediaeval15.pbworks.com/w/file/96824115/facetrack_similarity.tgz
+
 * `speakingface`
 
  This directory provides probabilities that each face track correspond to the current speaker. Each file contains one line per overlapping (face track / speech turns).
