@@ -9,7 +9,7 @@
 
 * `speaker`
 
- This directory provides automatic speaker diarization (who speaks when). 
+ This directory provides the output of automatic speaker diarization (who speaks when). 
  Each file contains one line per speech turn, using [`.MESeg` file format](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#temporal-segmentation-meseg). 
 
 * `speechturn_similarity`
@@ -26,11 +26,13 @@ trackIDspeechTurn trackIDspeechTurn probability
 
 * `face`
 
- This directory provides automatic facetrack **clustering**. Each file contains one line per face track, using [`.MESeg` file format](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#temporal-segmentation-meseg).
+ This directory provides the output of automatic face track clustering. Each file contains one line per face track, using [`.MESeg` file format](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#temporal-segmentation-meseg).
 
 * `facetrack_similarity`
 
-This directory provides matrix probability that two faces correspond to the same person. Due to the size of the files, they must be download separately from the PBWorks wiki: http://mediaeval15.pbworks.com/w/file/96824115/facetrack_similarity.tgz
+ This directory provides matrix probability that two faces correspond to the same person. 
+ Due to the size of the files, they must be downloaded separately from the PBWorks wiki:
+ http://mediaeval15.pbworks.com/w/file/96824115/facetrack_similarity.tgz
 
 * `speakingface`
 
