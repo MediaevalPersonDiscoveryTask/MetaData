@@ -1,10 +1,10 @@
+This directory provides matrix probability that two faces correspond to the same person.
+Due to the size of the files, they must be downloaded separately from the PBWorks wiki: 
+http://mediaeval15.pbworks.com/w/file/96824115/facetrack_similarity.tgz
 
+Here is an example of how to read these matrices in Python: 
 
-This directory provides matrix probability that two faces correspond to the same person
-Due to the size of the files, they must be download separately from the PBWorks wiki: http://mediaeval15.pbworks.com/w/file/96824115/facetrack_similarity.tgz
-
-This an example on how to read these matrix in python: 
-
+```python
 from mediaeval_util.repere import MESegParser
 import numpy as np
 import pickle
@@ -27,7 +27,4 @@ if __name__ == '__main__':
     for i in range(len(TrackFaceIDs)):
         for j in range(len(TrackFaceIDs)):
             print TrackFaceIDs[i], TrackFaceIDs[j], mat[i][j]
-            
-            
-    
-
+```
