@@ -6,9 +6,8 @@ Here is an example of how to read these matrices in Python:
 
 ```python
 from mediaeval_util.repere import MESegParser
-import numpy as np
 import pickle
-from scipy import spatial, cluster
+from scipy import spatial
 
 # read face segmentation
 TrackFaceIDs = []
