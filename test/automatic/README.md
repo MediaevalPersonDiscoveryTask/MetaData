@@ -27,10 +27,10 @@ trackIDspeechTurn trackIDspeechTurn probability
 
 * `facetrackPosition.tar.gz`
 
- This archive contain the position of facetrack. Each file contains one line per frame/facetrack, using 
+ This archive contain the position of facetracks. Each file contain one line per frame/facetrack, using 
  
  ```
-FrameID faceTrackID xmin, ymin, width, height
+frameID faceTrackID xmin, ymin, width, height
  ```
 
 * `face`
