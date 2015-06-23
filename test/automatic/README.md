@@ -24,6 +24,15 @@ trackIDspeechTurn trackIDspeechTurn probability
 
  This directory provides automatic face detection and tracking. Each file contains one line per face track, using [`.MESeg` file format](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#temporal-segmentation-meseg).
 
+
+* `facetrackPosition.tar.gz`
+
+ This archive contain the position of facetrack. Each file contains one line per frame/facetrack, using 
+ 
+ ```
+FrameID faceTrackID xmin, ymin, width, height
+ ```
+
 * `face`
 
  This directory provides the output of automatic face track clustering. Each file contains one line per face track, using [`.MESeg` file format](https://github.com/MediaevalPersonDiscoveryTask/metadata/wiki/file-format#temporal-segmentation-meseg).
